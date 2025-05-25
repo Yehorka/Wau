@@ -13,12 +13,12 @@ const Footer: React.FC = () => {
             <span className="japanese-text">和宇</span> – WAU DESIGNS
           </p>
         </div>
-        <div className="flex space-x-8">
-          <a href="#about" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.about')}</a>
-          <a href="#experience" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.experience')}</a>
-          <a href="#products" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.products')}</a>
-          <a href="#contact" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.contact')}</a>
-        </div>
+        {/*<div className="flex space-x-8">*/}
+        {/*  <a href="#about" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.about')}</a>*/}
+        {/*  <a href="#experience" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.experience')}</a>*/}
+        {/*  <a href="#products" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.products')}</a>*/}
+        {/*  <a href="#contact" className="text-xs uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.contact')}</a>*/}
+        {/*</div>*/}
       </div>
     </footer>
   );
