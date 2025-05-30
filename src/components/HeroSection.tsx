@@ -5,22 +5,37 @@ import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 const HeroSection: React.FC = () => {
   const { t } = useTranslation();
-
+  <div dangerouslySetInnerHTML={{ __html: t('text') }} />
   return (
     <section className="px-6 md:px-12 lg:px-24 py-12">
       <div className="flex flex-col md:flex-row gap-8">
         {/* Left side - Text content */}
-        <div className="w-full md:w-1/3 flex flex-col justify-center">
-          <p className="text-sm uppercase tracking-wider mb-6">
-            {t('hero.subtitle')}
-          </p>
-          <div className="space-y-2 mt-auto">
-            <p className="text-lg font-light">{t('hero.tagline1')}</p>
-            <p className="text-lg font-light">{t('hero.tagline2')}</p>
-            <p className="text-lg font-light">{t('hero.tagline3')}</p>
-          </div>
+        <div className="w-full md:w-1/3 flex flex-col justify-around">
+{/* Title */}
+  <h1 className="text-2xl font-medium tracking-wide">
+    {t('hero.title')}
+  </h1>
+
+  {/* Subtitle */}
+  <p className="text-sm uppercase tracking-wider">
+    {t('hero.subtitle')}
+  </p>
+
+  {/* Taglines *
+  <div className="space-y-2">
+    <p className="text-lg font-light">{t('hero.tagline1')}</p>
+    <p className="text-lg font-light">{t('hero.tagline2')}</p>
+    <p className="text-lg font-light">{t('hero.tagline3')}</p>
+  </div>*/}
+    <div>
+    <a
+      href="#products"
+      className="inline-block px-6 py-3 text-sm md:text-base font-medium uppercase tracking-widest text-white bg-black hover:bg-neutral-800 transition-colors rounded-full shadow-lg"
+    >
+      {t('hero.ctaButton')} {/* приклад: “Переглянути продукцію” */}
+    </a>
+  </div>
         </div>
-        
         {/* Right side - Two images */}
         <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-neutral-300 h-full">
