@@ -17,6 +17,8 @@ const ExperienceSection: React.FC = () => {
         <p>{t('experience.paragraph1')}</p>
         <p>{t('experience.paragraph2')}</p>
         <p>{t('experience.paragraph3')}</p>
+      </div>
+      <div className="space-y-4">
         <p className="font-semibold">{t('experience.listHeading')}</p>
         <ul className="list-disc list-inside space-y-2">
           <li>{t('experience.list.item1')}</li>
@@ -24,8 +26,6 @@ const ExperienceSection: React.FC = () => {
           <li>{t('experience.list.item3')}</li>
           <li>{t('experience.list.item4')}</li>
         </ul>
-      </div>
-      <div className="space-y-4">
         <p>{t('experience.paragraph4')}</p>
         <p>{t('experience.paragraph5')}</p>
         <p>{t('experience.paragraph6')}</p>
