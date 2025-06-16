@@ -99,6 +99,17 @@ const ProductsSection: React.FC = () => {
           </a>
         </div>
       </div>
+
+      <div className="mt-10 text-center">
+        <a
+          href="#"
+          className="inline-block bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition"
+        >
+          {t('products.cta')}
+        </a>
+      </div>
+
+      {/* Art and NFT sections have been moved to dedicated components */}
     </section>
   );
 };
