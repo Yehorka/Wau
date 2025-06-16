@@ -11,20 +11,7 @@ const ContactSection: React.FC = () => {
       <h2 className="section-title mb-12">{t('contact.title')}</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:items-center">
-        <div className="space-y-4">
-          <div className="contact-item">
-            <MapPin size={18} />
-            <p>{t('contact.address')}</p>
-          </div>
-          <div className="contact-item">
-            <Mail size={18} />
-            <p>{t('contact.email')}</p>
-          </div>
-          <div className="contact-item">
-            <Phone size={18} />
-            <p>{t('contact.phone')}</p>
-          </div>
-        </div>
+        <div className="space-y-4" />
         
         <div className="md:justify-self-end md:text-right">
           <a

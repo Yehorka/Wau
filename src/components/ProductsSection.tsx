@@ -73,41 +73,7 @@ const ProductsSection: React.FC = () => {
         </a>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
-        <div>
-          <h3 className="text-2xl font-bold mb-2">{t('products.artTitle')}</h3>
-          <p className="text-sm text-gray-600 mb-2">
-            {t('products.artDescription')}
-          </p>
-          <a
-            href="#"
-            className="text-blue-600 underline hover:text-blue-800"
-          >
-            {t('products.artLink')}
-          </a>
-        </div>
-        <div>
-          <h3 className="text-2xl font-bold mb-2">{t('products.nftTitle')}</h3>
-          <p className="text-sm text-gray-600 mb-2">
-            {t('products.nftDescription')}
-          </p>
-          <a
-            href="#"
-            className="text-blue-600 underline hover:text-blue-800"
-          >
-            {t('products.nftLink')}
-          </a>
-        </div>
-      </div>
-
-      <div className="mt-10 text-center">
-        <a
-          href="#"
-          className="inline-block bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition"
-        >
-          {t('products.cta')}
-        </a>
-      </div>
+      {/* Art and NFT links removed */}
 
       {/* Art and NFT sections have been moved to dedicated components */}
     </section>
