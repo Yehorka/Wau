@@ -1,59 +1,79 @@
-
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import type { TFunction } from 'i18next';
+
+const getProducts = (t: TFunction) => [
+  {
+    title: t('products.items.item1.title'),
+    description: t('products.items.item1.description'),
+  },
+  {
+    title: t('products.items.item2.title'),
+    description: t('products.items.item2.description'),
+  },
+  {
+    title: t('products.items.item3.title'),
+    description: t('products.items.item3.description'),
+  },
+  {
+    title: t('products.items.item4.title'),
+    description: t('products.items.item4.description'),
+  },
+  {
+    title: t('products.items.item5.title'),
+    description: t('products.items.item5.description'),
+  },
+  {
+    title: t('products.items.item6.title'),
+    description: t('products.items.item6.description'),
+  },
+  {
+    title: t('products.items.item7.title'),
+    description: t('products.items.item7.description'),
+  },
+];
 
 const ProductsSection: React.FC = () => {
   const { t } = useTranslation();
-
+  const products = getProducts(t);
   return (
     <section id="products" className="px-6 md:px-12 lg:px-24 py-20">
-      <div className="mb-16">
-        <h2 className="japanese-text text-xl mb-1">和宇–{t('products.title')}</h2>
+      <div className="text-center mb-8">
+        <h2 className="japanese-text text-3xl md:text-4xl lg:text-5xl font-medium mb-2">
+          {t('products.sectionTitle')}
+        </h2>
+        <p className="text-sm text-gray-600">
+          {t('products.sectionSubtitle')}
+        </p>
       </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
-        <div className="image-grid-item">
-          <img src="images/photo_2025-05-20_11-11-14.jpg" alt="Furniture detail" />
-          <p className="text-xs uppercase tracking-widest mt-2">{t('products.texture')}</p>
-          <p className="text-xs text-neutral-500">{t('products.textureDescription')}</p>
-        </div>
-        <div className="image-grid-item">
-          <img src="public/images/photo_2025-05-20_11-11-35.jpg" alt="Furniture material" />
-          <p className="text-xs uppercase tracking-widest mt-2">{t('products.materials')}</p>
-          <p className="text-xs text-neutral-500">{t('products.materialsDescription')}</p>
-        </div>
-        <div className="image-grid-item">
-          <img src="/placeholder.svg" alt="Furniture design" />
-          <p className="text-xs uppercase tracking-widest mt-2">{t('products.design')}</p>
-          <p className="text-xs text-neutral-500">{t('products.designDescription')}</p>
-        </div>
-      </div>
-      
-      <div className="aspect-[3/1] bg-neutral-200 overflow-hidden mb-16">
-        <div className="w-full h-full flex items-end p-12">
-          <h2 className="quote-text max-w-3xl">
-            {t('products.quote')}
-          </h2>
-        </div>
-      </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div>
-          <h3 className="section-title mb-8">{t('products.furnitureTitle')}</h3>
-          <p className="sub-heading">{t('products.minimalistConcepts')}</p>
-          <p className="text-sm leading-relaxed mb-6">
-            {t('products.furnitureDescription')}
-          </p>
-        </div>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="aspect-[3/4] bg-neutral-200">
-            <img src="/placeholder.svg" alt="Chair design" className="hero-image" />
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {products.map((product) => (
+          <div
+            key={product.title}
+            className="border border-gray-200 rounded-lg shadow-sm hover:shadow-lg p-4 transition duration-300"
+          >
+            <img
+              src="/placeholder.png"
+              alt=""
+              className="w-full h-48 object-cover mb-4 rounded"
+            />
+            <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
+            <p className="text-sm text-gray-600">{product.description}</p>
           </div>
-          <div className="aspect-[3/4] bg-neutral-200">
-            <img src="images/photo_2025-05-20_11-15-28.jpg" alt="Furniture in space" className="hero-image" />
-          </div>
-        </div>
+        ))}
       </div>
+
+      <div className="mt-10 text-center">
+        <a
+          href="#"
+          className="inline-block bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition"
+        >
+          {t('products.cta')}
+        </a>
+      </div>
+
+      {/* Art and NFT sections have been moved to dedicated components */}
     </section>
   );
 };

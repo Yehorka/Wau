@@ -59,17 +59,49 @@
     "paragraph6": "Mythodesign of taste and meaning. Each product is part of a legend and scientific achievements."
   },
   "products": {
-    "title": "WAU FOOD",
-    "texture": "TEXTURE",
-    "textureDescription": "Weight, tactile qualities, and texture",
-    "materials": "MATERIALS USED",
-    "materialsDescription": "Wood, leather, cotton, and steel",
-    "design": "DESIGN",
-    "designDescription": "Design for minimalist aesthetics",
-    "quote": "INTERIOR DESIGN IS AS MUCH ABOUT WHAT YOU DON'T PUT INSIDE A SPACE AS WHAT YOU PUT IN.",
-    "furnitureTitle": "FURNITURE DESIGN",
-    "minimalistConcepts": "Minimalist Concepts",
-    "furnitureDescription": "Working with furniture focused on clean lines and contextual design. Exploration of negative space, form, and function. Using natural wood, steel, and textiles to craft pieces that stand the test of time and evoke tranquility in spaces."
+    "sectionTitle": "和宇-WaU Food",
+    "sectionSubtitle": "WaU Food is food with meaning, created using medicinal herbs from the Healing Mountain of Cherkasy region.",
+    "items": {
+      "item1": {
+        "title": "Elderberry Eggs",
+        "description": "A source of strength in feed with elderberry, scutellaria, astragalus, and pumpkin seeds"
+      },
+      "item2": {
+        "title": "Herbal Elderberry Turkey",
+        "description": "Flavor and benefit for recovery. Through feed with medicinal plants"
+      },
+      "item3": {
+        "title": "Herbal Elderberry Turkey Ham",
+        "description": "With elderflower and Baikal skullcap root"
+      },
+      "item4": {
+        "title": "Herbal Elderberry Turkey Broth",
+        "description": "Therapy through nutrition, with elderflower and Baikal skullcap root"
+      },
+      "item5": {
+        "title": "Pumpkin Oil",
+        "description": "With zinc, vitamins, and phytosterols"
+      },
+      "item6": {
+        "title": "High-oleic Sunflower Oil",
+        "description": "With oleic acid (omega-9) 81-83%"
+      },
+      "item7": {
+        "title": "Juice Concentrates (for Japan)",
+        "description": "Elderberry, apple, raspberry, plum, beet, others on request"
+      }
+    },
+    "cta": "Order Online | Available in Japan and Ukraine"
+  },
+  "wauArt": {
+    "title": "和宇-WaU Art",
+    "description": "Art is our response to pain, war, despair. Oleksandra Fedoruk — painting that speaks with the past. Akitoshi Matsuhara — photography that breathes silence. Yurii Melnychuk — music resonating with the world's soul.",
+    "link": "→ Gallery. Catalog. Auctions. Charity"
+  },
+  "nftArt": {
+    "title": "NFT Art 和宇-WaU",
+    "description": "NFT WaU is a token of participation. Get an NFT seal from WaU, confirm your contribution to culture, heritage restoration, and support for Veteran Warriors of light. Transparency via blockchain (Japan+Switzerland+Ukraine).",
+    "link": "Gifts. Symbols. Gratitude. Investments."
   },
   "contact": {
     "title": "GET IN TOUCH",
