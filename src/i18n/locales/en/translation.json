@@ -14,11 +14,14 @@
     "tagline2": "Art as response",
     "tagline3": "WAU for the world",
     "image1Alt": "Minimalist chair design",
-    "image2Alt": "Modern furniture detail"
+    "image2Alt": "Modern furniture detail",
+    "ctaButton": "GET IN TOUCH"
   },
   "about": {
     "title": "LOREM IPSUM DOLOR",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, cras vel lorem ultricies amet tempor, venenatis nec fermentum lobortis. Lorem dolor tempor ultrices vestibulum enim et blandit, pretium orci, ligula. Fusce suscipit scelerisque tortor sit amet lacinia. Nam vitae euismod at dictum in. Nulla vitae iaculis at purus mattis elementum. Aliquam congue dapibus vitae ut."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, cras vel lorem ultricies amet tempor, venenatis nec fermentum lobortis. Lorem dolor tempor ultrices vestibulum enim et blandit, pretium orci, ligula. Fusce suscipit scelerisque tortor sit amet lacinia. Nam vitae euismod at dictum in. Nulla vitae iaculis at purus mattis elementum. Aliquam congue dapibus vitae ut.",
+    "mission_title": "MISSION",
+    "mission": "Improving the world, awakening stone souls. Our values: love, trust, responsibility."
   },
   "experience": {
     "past": "PAST EXPERIENCE",
@@ -39,7 +42,21 @@
       "item5": "Balancing aesthetics with functionality",
       "item6": "Creating timeless pieces that transcend trends",
       "item7": "Building collaborations with clients to fully actualize and conceptualize custom works"
-    }
+    },
+    "title": "The Philosophy of WaU",
+    "paragraph1": "In a world tired of advertising and faceless brands, we developed a new marketing model—mythodesign WaU.",
+    "paragraph2": "It synthesizes visual art, cultural codes, and archetypes to create deep emotional bonds between product and person.",
+    "paragraph3": "WaU works with images and meanings.",
+    "listHeading": "Mythodesign WaU is:",
+    "list": {
+      "item1": "a combination of Japanese and Ukrainian traditions in modern symbolic design",
+      "item2": "a strategy where each product is a cultural message",
+      "item3": "a brand that speaks the language of depth, not superficial advertising",
+      "item4": "a new aesthetics for a new era—where beauty, meaning, and authenticity serve as marketing tools"
+    },
+    "paragraph4": "Mythodesign WaU is when your brand has a soul—and this soul unites continents.",
+    "paragraph5": "Mythodesign of two cultures. Food and art in dialogue.",
+    "paragraph6": "Mythodesign of taste and meaning. Each product is part of a legend and scientific achievements."
   },
   "products": {
     "title": "WAU FOOD",
@@ -65,6 +82,23 @@
       "instagram": "Instagram",
       "facebook": "Facebook",
       "pinterest": "Pinterest"
+    },
+    "team": {
+      "roman": {
+        "line1": "Roman Mykhailych - CEO Shlosem Ukraine",
+        "line2": "tel. +38(050)331-5556",
+        "line3": "ceo@shlosem.com",
+        "line4": "office@shlosem.com"
+      },
+      "andrii": {
+        "line1": "Nazarenko Andrii - CEO of the Japan Office",
+        "line2": "tel. +81-080-4726-7477",
+        "line3": "a.nazarenko@wau.shlosem.com"
+      },
+      "hirohisa": {
+        "line1": "Suetsugu Hirohisa - COO of the Japan Office",
+        "line2": "H.Seutsugu@wau.shlosem.com"
+      }
     }
   },
   "languageSwitcher": {

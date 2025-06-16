@@ -30,7 +30,25 @@ const ContactSection: React.FC = () => {
           <p className="text-right">{t('contact.collaborate')}</p>
         </div>
       </div>
-      
+
+      <div className="mt-8 space-y-4 text-sm">
+        <div className="space-y-1">
+          <p className="font-semibold">{t('contact.team.roman.line1')}</p>
+          <p>{t('contact.team.roman.line2')}</p>
+          <p>{t('contact.team.roman.line3')}</p>
+          <p>{t('contact.team.roman.line4')}</p>
+        </div>
+        <div className="space-y-1">
+          <p className="font-semibold">{t('contact.team.andrii.line1')}</p>
+          <p>{t('contact.team.andrii.line2')}</p>
+          <p>{t('contact.team.andrii.line3')}</p>
+        </div>
+        <div className="space-y-1">
+          <p className="font-semibold">{t('contact.team.hirohisa.line1')}</p>
+          <p>{t('contact.team.hirohisa.line2')}</p>
+        </div>
+      </div>
+
       <div className="border-t border-neutral-300 mt-12 pt-12">
         <div className="flex justify-between items-center">
           <p className="text-xs text-neutral-500">{t('contact.copyright')}</p>
