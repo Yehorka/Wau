@@ -10,7 +10,7 @@ const ContactSection: React.FC = () => {
     <section id="contact" className="px-6 md:px-12 lg:px-24 py-20">
       <h2 className="section-title mb-12">{t('contact.title')}</h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:items-center">
         <div className="space-y-4">
           <div className="contact-item">
             <MapPin size={18} />
@@ -26,14 +26,14 @@ const ContactSection: React.FC = () => {
           </div>
         </div>
         
-    <div>
-    <a
-      href="#products"
-      className="inline-block px-6 py-3 text-sm md:text-base font-medium uppercase tracking-widest text-white bg-black hover:bg-neutral-800 transition-colors rounded-full shadow-lg"
-    >
-      {t('hero.ctaButton')} {/* приклад: “Переглянути продукцію” */}
-    </a>
-  </div>
+        <div className="md:justify-self-end md:text-right">
+          <a
+            href="#products"
+            className="inline-block px-6 py-3 text-sm md:text-base font-medium uppercase tracking-widest text-white bg-black hover:bg-neutral-800 transition-colors rounded-full shadow-lg"
+          >
+            {t('hero.ctaButton')} {/* приклад: “Переглянути продукцію” */}
+          </a>
+        </div>
       </div>
 
       <div className="mt-8 space-y-4 text-sm">
