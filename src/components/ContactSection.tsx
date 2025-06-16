@@ -26,9 +26,14 @@ const ContactSection: React.FC = () => {
           </div>
         </div>
         
-        <div>
-          <p className="text-right">{t('contact.collaborate')}</p>
-        </div>
+    <div>
+    <a
+      href="#products"
+      className="inline-block px-6 py-3 text-sm md:text-base font-medium uppercase tracking-widest text-white bg-black hover:bg-neutral-800 transition-colors rounded-full shadow-lg"
+    >
+      {t('hero.ctaButton')} {/* приклад: “Переглянути продукцію” */}
+    </a>
+  </div>
       </div>
 
       <div className="mt-8 space-y-4 text-sm">
