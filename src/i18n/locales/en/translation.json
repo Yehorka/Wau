@@ -91,13 +91,17 @@
         "description": "Elderberry, apple, raspberry, plum, beet, others on request"
       }
     },
-    "cta": "Order Online | Available in Japan and Ukraine",
-    "artTitle": "和宇-WaU Art",
-    "artDescription": "Art is our response to pain, war, despair. Oleksandra Fedoruk — painting that speaks with the past. Akitoshi Matsuhara — photography that breathes silence. Yurii Melnychuk — music resonating with the world's soul.",
-    "artLink": "→ Gallery. Catalog. Auctions. Charity",
-    "nftTitle": "NFT Art 和宇-WaU",
-    "nftDescription": "NFT WaU is a token of participation. Get an NFT seal from WaU, confirm your contribution to culture, heritage restoration, and support for Veteran Warriors of light. Transparency via blockchain (Japan+Switzerland+Ukraine).",
-    "nftLink": "Gifts. Symbols. Gratitude. Investments."
+    "cta": "Order Online | Available in Japan and Ukraine"
+  },
+  "wauArt": {
+    "title": "和宇-WaU Art",
+    "description": "Art is our response to pain, war, despair. Oleksandra Fedoruk — painting that speaks with the past. Akitoshi Matsuhara — photography that breathes silence. Yurii Melnychuk — music resonating with the world's soul.",
+    "link": "→ Gallery. Catalog. Auctions. Charity"
+  },
+  "nftArt": {
+    "title": "NFT Art 和宇-WaU",
+    "description": "NFT WaU is a token of participation. Get an NFT seal from WaU, confirm your contribution to culture, heritage restoration, and support for Veteran Warriors of light. Transparency via blockchain (Japan+Switzerland+Ukraine).",
+    "link": "Gifts. Symbols. Gratitude. Investments."
   },
   "contact": {
     "title": "GET IN TOUCH",
