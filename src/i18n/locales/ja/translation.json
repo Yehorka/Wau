@@ -14,11 +14,14 @@
     "tagline2": "応答としての芸術",
     "tagline3": "世界のためのWAU",
     "image1Alt": "ミニマリストチェアデザイン",
-    "image2Alt": "モダンな家具の詳細"
+    "image2Alt": "モダンな家具の詳細",
+    "ctaButton": "お問い合わせ"
   },
   "about": {
     "title": "LOREM IPSUM DOLOR",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, cras vel lorem ultricies amet tempor, venenatis nec fermentum lobortis. Lorem dolor tempor ultrices vestibulum enim et blandit, pretium orci, ligula. Fusce suscipit scelerisque tortor sit amet lacinia. Nam vitae euismod at dictum in. Nulla vitae iaculis at purus mattis elementum. Aliquam congue dapibus vitae ut."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, cras vel lorem ultricies amet tempor, venenatis nec fermentum lobortis. Lorem dolor tempor ultrices vestibulum enim et blandit, pretium orci, ligula. Fusce suscipit scelerisque tortor sit amet lacinia. Nam vitae euismod at dictum in. Nulla vitae iaculis at purus mattis elementum. Aliquam congue dapibus vitae ut.",
+    "mission_title": "ミッション",
+    "mission": "世界の改善、石の魂の目覚め。私たちの価値観：愛、信頼、責任。"
   },
   "experience": {
     "past": "過去の経験",
@@ -39,7 +42,21 @@
       "item5": "美学と機能性のバランス",
       "item6": "流行を超越した永遠の作品の創造",
       "item7": "クライアントとのコラボレーションによるカスタム作品の実現と概念化"
-    }
+    },
+    "title": "WaUの哲学",
+    "paragraph1": "広告に疲れ、ブランドが無個性となった世界で、私たちは新しいマーケティングモデル「WaUミソデザイン」を生み出しました。",
+    "paragraph2": "それは視覚芸術、文化的コード、アーキタイプを融合し、製品と人との深い感情的な結びつきを生み出します。",
+    "paragraph3": "WaUはイメージと意味を扱います。",
+    "listHeading": "WaUのミソデザインとは：",
+    "list": {
+      "item1": "日本とウクライナの伝統を現代の象徴的デザインで組み合わせること",
+      "item2": "すべての製品が文化的メッセージとなる戦略",
+      "item3": "表面的な広告ではなく深みのある言葉で語るブランド",
+      "item4": "新しい時代の新しい美学—美しさ、意味、真実性がマーケティングの手段となる"
+    },
+    "paragraph4": "WaUのミソデザインはブランドに魂が宿り、その魂が大陸を結び付けます。",
+    "paragraph5": "二つの文化のミソデザイン。食と芸術が対話する。",
+    "paragraph6": "味と意味のミソデザイン。すべての製品が伝説と科学的成果の一部である。"
   },
   "products": {
     "title": "和宇フード",
@@ -65,6 +82,23 @@
       "instagram": "インスタグラム",
       "facebook": "フェイスブック",
       "pinterest": "ピンタレスト"
+    },
+    "team": {
+      "roman": {
+        "line1": "Roman Mykhailych - CEO Shlosem Ukraine",
+        "line2": "tel. +38(050)331-5556",
+        "line3": "ceo@shlosem.com",
+        "line4": "office@shlosem.com"
+      },
+      "andrii": {
+        "line1": "Nazarenko Andrii - CEO of the Japan Office",
+        "line2": "tel. +81-080-4726-7477",
+        "line3": "a.nazarenko@wau.shlosem.com"
+      },
+      "hirohisa": {
+        "line1": "Suetsugu Hirohisa - COO of the Japan Office",
+        "line2": "H.Seutsugu@wau.shlosem.com"
+      }
     }
   },
   "languageSwitcher": {

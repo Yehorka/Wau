@@ -64,6 +64,23 @@
       "instagram": "Інстаграм",
       "facebook": "Фейсбук",
       "pinterest": "Пінтерест"
+    },
+    "team": {
+      "roman": {
+        "line1": "Роман Михайлич - CEO Shlosem Україна",
+        "line2": "тел. +38(050)331-5556",
+        "line3": "ceo@shlosem.com",
+        "line4": "office@shlosem.com"
+      },
+      "andrii": {
+        "line1": "Назаренко Андрій - CEO японського офісу",
+        "line2": "тел. +81-080-4726-7477",
+        "line3": "a.nazarenko@wau.shlosem.com"
+      },
+      "hirohisa": {
+        "line1": "Suetsugu Hirohisa - COO японського офісу",
+        "line2": "H.Seutsugu@wau.shlosem.com"
+      }
     }
   },
   "languageSwitcher": {
