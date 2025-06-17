@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
 
@@ -25,26 +24,22 @@ export default {
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
+				foreground: '#2E1A36', // update base text
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
-				},
-				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: '#6B2C91', // brand violet
+					foreground: '#FDF8F3' // soft parchment
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
 				muted: {
-					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))'
+					DEFAULT: '#F5F1EB', // light beige background
+					foreground: '#2E1A36'
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					DEFAULT: '#FFD400', // brand yellow
+					foreground: '#2E1A36' // deep text for contrast
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -57,6 +52,8 @@ export default {
 			},
 			fontFamily: {
 				'jost': ['Jost', 'sans-serif'],
+				'cormorant': ['Cormorant Garamond', 'serif'],
+				'lato': ['Lato', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
