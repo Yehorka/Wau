@@ -28,12 +28,6 @@ const HeroSection: React.FC = () => {
     <p className="text-lg font-light">{t('hero.tagline3')}</p>
   </div>*/}
     <div>
-    <a
-      href="#products"
-      className="inline-block px-6 py-3 text-sm md:text-base font-semibold tracking-wide text-primary-foreground bg-primary hover:bg-accent transition-colors rounded-full shadow-md"
-    >
-      {t('hero.ctaButton')} {/* приклад: “Переглянути продукцію” */}
-    </a>
   </div>
         </div>
         {/* Right side - Two images */}
