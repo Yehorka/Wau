@@ -1,5 +1,4 @@
 import React from 'react';
-import { MapPin, Mail, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const ContactSection: React.FC = () => {
