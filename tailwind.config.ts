@@ -50,11 +50,12 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 			},
-			fontFamily: {
-				'jost': ['Jost', 'sans-serif'],
-				'cormorant': ['Cormorant Garamond', 'serif'],
-				'lato': ['Lato', 'sans-serif'],
-			},
+                        fontFamily: {
+                                'raleway': ['Raleway', 'sans-serif'],
+                                'jost': ['Jost', 'sans-serif'],
+                                'cormorant': ['Cormorant Garamond', 'serif'],
+                                'lato': ['Lato', 'sans-serif'],
+                        },
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
