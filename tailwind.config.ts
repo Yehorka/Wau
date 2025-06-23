@@ -25,8 +25,12 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: '#2E1A36', // update base text
+				neutral: {
+					800: '#f8f8f8',
+          			900: '#0f0f0f',
+        		},
 				primary: {
-					DEFAULT: '#6B2C91', // brand violet
+					DEFAULT: '#f8f8f8', // brand violet
 					foreground: '#FDF8F3' // soft parchment
 				},
 				destructive: {
@@ -34,7 +38,7 @@ export default {
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
 				muted: {
-					DEFAULT: '#F5F1EB', // light beige background
+					DEFAULT: '#f8f8f8', // light beige background
 					foreground: '#2E1A36'
 				},
 				accent: {
